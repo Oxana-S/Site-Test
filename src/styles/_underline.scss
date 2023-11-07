@@ -1,0 +1,31 @@
+// Стили для подчеркивания текста заголовков
+.underline {
+	background-image: linear-gradient(to bottom, #fcba7c 33%, transparent 33%);
+	background-position: 0 45px;
+	background-repeat: repeat-x;
+	background-size: 2px 60px;
+}
+
+@media (max-width: 1024px) {
+	.about h2 {
+		font-size: 42px;
+	}
+}
+
+@media (max-width: 768px) {
+	.underline {
+		background-position: 0 33px;
+		background-repeat: repeat-x;
+		background-size: 2px 30px;
+	}
+	.block-header h1 {
+		font-size: 32px;
+	}
+	.block-header p {
+		font-size: 22px;
+		margin-top: 40px;
+	}
+	.about h2 {
+		font-size: 34px;
+	}
+}

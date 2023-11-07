@@ -1,0 +1,27 @@
+// Стили для фиксации шапки
+.header {
+	z-index: 100;
+	width: 100%;
+	.header__inner {
+		box-sizing: border-box;
+		width: 100%;
+		max-width: 1250px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+}
+.header-fixed {
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+@media (max-width: 1280px) {
+	.header__inner {
+		padding: 0 15px;
+	}
+}
