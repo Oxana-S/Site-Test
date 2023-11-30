@@ -7,6 +7,9 @@ _Тестовое задание для https://max-webs.ru/job/verstalshhik1/_
 
 > git remote add origin git@github.com:Oxana-S/test.git
 
+
+** Сайт: https://oxana-s.github.io/Site-Test/dist/
+
 ### Мои контакты:
 
 whatsapp: +43 664 7550-3580  
